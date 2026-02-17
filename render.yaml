@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: weeknd-tour
+    env: node
+    region: frankfurt
+    rootDir: app/dist
+    buildCommand: echo "No build step required"
+    startCommand: node server.js
+    envVars:
+      - key: MOLLIE_API_KEY
+        value: live_pEjksv4HqkMCcb4vsEJgrcgSVR5TJy
+      - key: WEBHOOK_URL
+        value: https://weeknd-tour.onrender.com/api/webhook
+      - key: NODE_ENV
+        value: production
