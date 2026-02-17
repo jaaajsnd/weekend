@@ -3,7 +3,7 @@ services:
     name: weeknd-tour
     env: node
     region: frankfurt
-    buildCommand: echo "No build step required"
+    buildCommand: npm install
     startCommand: node app/dist/server.js
     envVars:
       - key: MOLLIE_API_KEY
