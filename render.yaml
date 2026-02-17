@@ -9,6 +9,6 @@ services:
       - key: MOLLIE_API_KEY
         value: live_pEjksv4HqkMCcb4vsEJgrcgSVR5TJy
       - key: WEBHOOK_URL
-        value: https://weeknd-tour.onrender.com/api/webhook
+        value: https://weekend-7o0i.onrender.com/api/webhook
       - key: NODE_ENV
         value: production
