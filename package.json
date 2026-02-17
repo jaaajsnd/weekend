@@ -5,7 +5,7 @@
     "node": ">=18"
   },
   "scripts": {
-    "start": "node app/dist/server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^5.2.1",
