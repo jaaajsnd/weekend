@@ -39,7 +39,8 @@ app.post('/api/create-payment', async (req, res) => {
     });
 
     res.json({
-      checkoutUrl: payment.getCheckoutUrl(),
+      success: true,
+      paymentUrl: payment.getCheckoutUrl(),
       paymentId: payment.id,
     });
   } catch (error) {
