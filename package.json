@@ -1,0 +1,10 @@
+{
+  "name": "weeknd-tour",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node app/dist/server.js"
+  }
+}
